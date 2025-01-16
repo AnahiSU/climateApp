@@ -1,0 +1,39 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #B5B1B2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: #A1CDF4;
+    padding: 20px;
+    display: flex;
+}
+#container > .block{
+    padding: 50px;
+}
+.block{
+    background-color: #B5B1B2;
+
+
+}
+
+.block:first-child{
+    background-color: #B5B1B2;
+}
+
+.info-cont{
+    display: flex;
+}
+.info{
+    margin-left: 5px;
+}
+
+#location{
+    font-weight: bold;
+    font-size: 22px;
+}
